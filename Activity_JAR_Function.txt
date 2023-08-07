@@ -1,0 +1,30 @@
+***********First line deleted**********
+
+STL Server Property file ------> Hardcoded value as STL
+
+KSC Server Property file ------> Hardcoded value as KSC
+
+cron executes every 5mins
+
+JVM arguments ------> Gets Server ID Value (STL ? or KSC?) from system settings 
+
+Check the values of system settings and hardcoded value of property file of servers
+
+Condition : TRUE
+
+When result STL == STL -----> singleton class flag ----> TRUE ------> Register of AXON Listeners/Schedulers in STL
+
+or
+
+When result KSC == KSC -----> singleton class flag ----> TRUE ------> Register of AXON Listeners/Schedulers in KSC
+
+
+AXON Listener/Scheduler will continue their services untill the condition remains same.
+
+Condition : FALSE
+
+When result STL == KSC -----> singleton class flag ----> FALSE ------> De-Register-Register of AXON Listeners/Schedulers in STL
+
+or
+
+When result KSC == STL -----> singleton class flag ----> FALSE ------> De-Register of AXON Listeners/Schedulers in KSC
