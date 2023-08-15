@@ -1,5 +1,3 @@
-***********First line deleted**********
-
 STL Server Property file ------> Hardcoded value as STL
 
 KSC Server Property file ------> Hardcoded value as KSC
