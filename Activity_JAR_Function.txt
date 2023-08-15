@@ -1,5 +1,4 @@
-***********First line deleted**********
-
+******** this line is commit by ranjith**************
 STL Server Property file ------> Hardcoded value as STL
 
 KSC Server Property file ------> Hardcoded value as KSC
